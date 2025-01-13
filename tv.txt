@@ -6,7 +6,7 @@
 搬运请备注来源! 谢谢! 
 */
 {
-"spider":"./jar/spider.jar;md5;f4a2d92cc932b9afc7367f9d72d3b6e5",
+"spider":"https://raw.githubusercontent.com/river-81/tvbox/refs/heads/main/jar/spider.jar;md5;f4a2d92cc932b9afc7367f9d72d3b6e5",
 "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
 "logo":"https://gcore.jsdelivr.net/gh/yuanzl77/zafu@master/LR.jpg",
   "lives": [
@@ -26,13 +26,13 @@
 
 
 "sites":[
-{"key":"豆瓣","name":"豆瓣｜评分｜推荐","type":3,"api":"csp_Douban","ext":"./lib/豆瓣.json"},
+{"key":"豆瓣","name":"豆瓣｜评分｜推荐","type":3,"api":"csp_Douban","ext":"https://raw.githubusercontent.com/river-81/tvbox/refs/heads/main/lib/豆瓣.json"},
 {"key":"急救","name":"急救｜指南｜推荐","type":3,"api":"csp_FirstAid","searchable":0,"quickSearch":0,"changeable":0,"style": {"type": "rect", "ratio":3.8}},
 {"key":"天天","name":"天天｜有广｜蓝光","type":3,"api":"csp_AppTT","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"热播","name":"热播｜有广｜蓝光","type":3,"api":"csp_AppRB","playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
-{"key":"荐片","name":"荐片｜磁力｜蓝光","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"changeable":1,"ext":"./lib/jianpian.json"},
+{"key":"荐片","name":"荐片｜磁力｜蓝光","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"changeable":1,"ext":"https://raw.githubusercontent.com/river-81/tvbox/refs/heads/main/lib/jianpian.json"},
 {"key":"金牌","name":"金牌｜影视｜蓝光","type":3,"api":"csp_Jpys","searchable":1,"changeable":1},{"key":"人人","name":"人人｜影视｜蓝光","type":3,"api":"csp_Xdai","searchable":1,"changeable":1,"ext":"caHR0cDovLzExMC40MC40My4xNzk6MTIzNDV8RjUxRjVENTJEMjNDQkYyN3xGNTFGNUQ1MkQyM0NCRjI3fDE5MQ","jar":"./jar/qj.jar;md5;ab2b0ddad5e1f7fa6bd2b295eea6d0d5"},
-{"key":"LIBVIO","name":"LIB｜美剧｜蓝光","type":3,"api":"csp_Lib","searchable":1,"quickSearch":1,"changeable":1,"ext":"faHR0cHM6Ly9saWJ2aW8uYXJ0L3N0YXRpYy9qcy9wbGF5ZXJjb25maWcuanM=","jar":"./jar/qj.jar;md5;ab2b0ddad5e1f7fa6bd2b295eea6d0d5"},
+{"key":"LIBVIO","name":"LIB｜美剧｜蓝光","type":3,"api":"csp_Lib","searchable":1,"quickSearch":1,"changeable":1,"ext":"faHR0cHM6Ly9saWJ2aW8uYXJ0L3N0YXRpYy9qcy9wbGF5ZXJjb25maWcuanM=","jar":"https://raw.githubusercontent.com/river-81/tvbox/refs/heads/main/jar/qj.jar;md5;ab2b0ddad5e1f7fa6bd2b295eea6d0d5"},
 
 "key":"机器人","name":"机器｜全广｜蓝光","type":3,"api":"csp_Ikanbot","searchable":1,"changeable":1}
 ],
