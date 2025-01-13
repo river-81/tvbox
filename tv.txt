@@ -27,7 +27,10 @@
 
 "sites":[
 {"key":"豆瓣","name":"豆瓣｜评分｜推荐","type":3,"api":"csp_Douban","ext":"./lib/豆瓣.json"},
-{"key":"急救","name":"急救｜指南｜推荐","type":3,"api":"csp_FirstAid","searchable":0,"quickSearch":0,"changeable":0,"style": {"type": "rect", "ratio":3.8}}
+{"key":"急救","name":"急救｜指南｜推荐","type":3,"api":"csp_FirstAid","searchable":0,"quickSearch":0,"changeable":0,"style": {"type": "rect", "ratio":3.8}},
+{"key":"天天","name":"天天｜有广｜蓝光","type":3,"api":"csp_AppTT","searchable":1,"quickSearch":1,"changeable":1},
+{"key":"热播","name":"热播｜有广｜蓝光","type":3,"api":"csp_AppRB","playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
+{"key":"荐片","name":"荐片｜磁力｜蓝光","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"changeable":1,"ext":"./lib/jianpian.json"}
 ],
 
 "parses":[
