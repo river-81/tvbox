@@ -6,7 +6,7 @@
 搬运请备注来源! 谢谢! 
 */
 {
-"spider":"./jar/spider.jar;md5;f4a2d92cc932b9afc7367f9d72d3b6e5",
+"spider":"http://175.178.251.183:6689/jar/spider.jar;md5;f4a2d92cc932b9afc7367f9d72d3b6e5",
 "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
 "logo":"https://gcore.jsdelivr.net/gh/yuanzl77/zafu@master/LR.jpg",
   "lives": [
@@ -26,7 +26,6 @@
 
 
 "sites":[
-{"key":"豆瓣","name":"豆瓣｜评分｜推荐","type":3,"api":"csp_Douban","ext":"./lib/豆瓣.json"},
 {"key":"急救","name":"急救｜指南｜推荐","type":3,"api":"csp_FirstAid","searchable":0,"quickSearch":0,"changeable":0,"style": {"type": "rect", "ratio":3.8}},
 {"key":"预告","name":"预告｜影视｜LR","type":3,"api":"csp_YGP","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"天天","name":"天天｜有广｜蓝光","type":3,"api":"csp_AppTT","searchable":1,"quickSearch":1,"changeable":1},
