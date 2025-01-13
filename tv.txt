@@ -34,8 +34,8 @@
 {"key":"金牌","name":"金牌｜影视｜蓝光","type":3,"api":"csp_Jpys","searchable":1,"changeable":1},
 {"key":"csp_xbb_555电影","name":"555影视","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"changeable":1,"ext":"./lib/555dy.json"},
 {"key":"csp_xbb_tvyb03","name":"tvb云播","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"changeable":1,"ext":"./lib/tvyb03.json"},
-{"key":"机器人","name":"机器｜全广｜蓝光","type":3,"api":"csp_Ikanbot","searchable":1,"changeable":1},
-{"key":"csp_xbb_libvio","name":"LIBVIO","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"changeable":1,"ext":"./lib/libvio.json"}
+{"key":"csp_xbb_libvio","name":"LIBVIO","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"changeable":1,"ext":"./lib/libvio.json"},
+{"key":"机器人","name":"机器｜全广｜蓝光","type":3,"api":"csp_Ikanbot","searchable":1,"changeable":1}
 ],
 
 "parses":[
