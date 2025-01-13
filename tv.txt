@@ -6,7 +6,7 @@
 搬运请备注来源! 谢谢! 
 */
 {
-"spider":"https://raw.githubusercontent.com/river-81/tvbox/refs/heads/main/jar/spider.jar",
+"spider":"http://175.178.251.183:6689/jar/spider.jar;md5;f4a2d92cc932b9afc7367f9d72d3b6e5",
 "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
 "logo":"https://gcore.jsdelivr.net/gh/yuanzl77/zafu@master/LR.jpg",
   "lives": [
