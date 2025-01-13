@@ -32,8 +32,8 @@
 {"key":"热播","name":"热播｜有广｜蓝光","type":3,"api":"csp_AppRB","playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"荐片","name":"荐片｜磁力｜蓝光","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"changeable":1,"ext":"./lib/jianpian.json"},
 {"key":"金牌","name":"金牌｜影视｜蓝光","type":3,"api":"csp_Jpys","searchable":1,"changeable":1},
-{"key":"csp_xbb_555电影","name":"555影视","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"changeable":1,"ext":"./lib/555dy.json","jar":"./jar/XBiu.jar"},
-{"key":"csp_xbb_tvyb03","name":"tvb云播","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"changeable":1,"ext":"./lib/tvyb03.json","jar":"./jar/XBiu.jar"},
+{"key":"csp_xbb_555电影","name":"555影视","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"changeable":1,"ext":"./lib/555dy.json","jar":"./jar/xo1.jar"},
+{"key":"csp_xbb_tvyb03","name":"tvb云播","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"changeable":1,"ext":"./lib/tvyb03.json","jar":"./jar/xo1.jar"},
 {"key":"csp_xbb_libvio","name":"LIBVIO","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"changeable":1,"ext":"./lib/libvio.json","jar":"./jar/xo1.jar"}
 ],
 
