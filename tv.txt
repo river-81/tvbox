@@ -1,0 +1,63 @@
+/*
+导航: https://yuanzl77.github.io (打不开请更换dns或者挂梯)
+你好! 欢迎使用 LR 在线接口! 
+电视WebView版本老会导致一些网站看不了 只能升级WebView才能提升电视观影体验。建议使用OK版影视(支持腾讯x5，体验效果和手机差不多)!
+网站打不开，看不了 可能存在域名污染，跟换dns解析即可。
+搬运请备注来源! 谢谢! 
+*/
+{
+"spider":"./jar/spider.jar;md5;f4a2d92cc932b9afc7367f9d72d3b6e5",
+"wallpaper":"http://饭太硬.top/深色壁纸/api.php",
+"logo":"https://gcore.jsdelivr.net/gh/yuanzl77/zafu@master/LR.jpg",
+  "lives": [
+    {
+      "name": "直播-主用",
+      "type": 0,
+      "url": "./live.m3u",
+      "epg": "https://epg.v1.mk/json?ch={name}&date={date}"
+    },
+    {
+      "name": "直播-备用",
+      "type": 0,
+      "url": "https://gcore.jsdelivr.net/gh/yuanzl77/IPTV@latest/live.m3u",
+      "epg": "https://epg.v1.mk/json?ch={name}&date={date}"
+    }
+  ],
+
+
+"sites":[
+{"key":"豆瓣","name":"豆瓣｜评分｜推荐","type":3,"api":"csp_Douban","ext":"./lib/豆瓣.json"},
+{"key":"急救","name":"急救｜指南｜推荐","type":3,"api":"csp_FirstAid","searchable":0,"quickSearch":0,"changeable":0,"style": {"type": "rect", "ratio":3.8}},
+{"key":"天天","name":"天天｜有广｜蓝光","type":3,"api":"csp_AppTT","searchable":1,"quickSearch":1,"changeable":1},
+{"key":"热播","name":"热播｜有广｜蓝光","type":3,"api":"csp_AppRB","playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
+{"key":"荐片","name":"荐片｜磁力｜蓝光","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"changeable":1,"ext":"./lib/jianpian.json"},
+{"key":"金牌","name":"金牌｜影视｜蓝光","type":3,"api":"csp_Jpys","searchable":1,"changeable":1},{"key":"人人","name":"人人｜影视｜蓝光","type":3,"api":"csp_Xdai","searchable":1,"changeable":1,"ext":"caHR0cDovLzExMC40MC40My4xNzk6MTIzNDV8RjUxRjVENTJEMjNDQkYyN3xGNTFGNUQ1MkQyM0NCRjI3fDE5MQ","jar":"./jar/qj.jar;md5;ab2b0ddad5e1f7fa6bd2b295eea6d0d5"},
+{"key":"LIBVIO","name":"LIB｜美剧｜蓝光","type":3,"api":"csp_Lib","searchable":1,"quickSearch":1,"changeable":1,"ext":"faHR0cHM6Ly9saWJ2aW8uYXJ0L3N0YXRpYy9qcy9wbGF5ZXJjb25maWcuanM=","jar":"./jar/qj.jar;md5;ab2b0ddad5e1f7fa6bd2b295eea6d0d5"},
+
+"key":"机器人","name":"机器｜全广｜蓝光","type":3,"api":"csp_Ikanbot","searchable":1,"changeable":1}
+],
+
+"parses":[
+        {"name":"LR","type":0,"url":"https://pl.a6club.com/player/?url=","ext":{"flag":["imgo","migu","qq","qiyi","mgtv","bilibili","youku"]}},
+        {"name":"LR2","type":0,"url":"https://www.yemu.xyz/?url="},
+        {"name":"LR3","type":0,"url":"https://jx.xmflv.com/?url="},
+        {"name":"LR4","type":0,"url":"https://cjbfq.netflixgc.com/player/ec.php?code=netflix&if=1&url="},
+        {"name":"请阅读:","type":0,"url":"https://player.8j.pw/player/?url=","ext":{"flag":["imgo","migu","qq","qiyi","mgtv","bilibili","youku"]}},
+        {"name":"yuanzl77.github.io","type":0,"url":"https://jx.aiys.xyz/player/ec.php?code=qw&if=1&url="}
+        ],
+
+"flags":
+["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","PPTV","mgtv","ltnb","XAL","bilibili","tnmb","xigua","m1905","imgo","seven","YuMi-vip","NBY","SLNB"],
+
+"rules":[
+{"name":"proxy","hosts":["raw.githubusercontent.com","googlevideo.com","cdn.v82u1l.com","cdn.iz8qkg.com","cdn.kin6c1.com","c.biggggg.com","c.olddddd.com","haiwaikan.com","youtube.com","uhibo.com",".*boku.*",".*nivod.*",".*ulivetv.*","zxzj*.","80yy3.*"]}],
+
+"doh":[
+{"name":"Google","url":"https://dns.google/dns-query","ips":["8.8.4.4","8.8.8.8"]},
+{"name":"Cloudflare","url":"https://cloudflare-dns.com/dns-query","ips":["1.1.1.1","1.0.0.1","2606:4700:4700::1111","2606:4700:4700::1001"]},
+{"name":"AdGuard","url":"https://dns.adguard.com/dns-query","ips":["94.140.14.140","94.140.14.141"]},
+{"name":"DNSWatch","url":"https://resolver2.dns.watch/dns-query","ips":["84.200.69.80","84.200.70.40"]},
+{"name":"Quad9","url":"https://dns.quad9.net/dns-quer","ips":["9.9.9.9","149.112.112.112"]}],
+
+"ads":["mozai.4gtv.tv","wan.51img1.com","iqiyi.hbuioo.com","vip.ffzyad.com","https://lf1-cdn-tos.bytegoofy.com/obj/tos-cn-i-dy/455ccf9e8ae744378118e4bd289288dd"]
+}
