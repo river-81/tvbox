@@ -6,7 +6,7 @@
 搬运请备注来源! 谢谢! 
 */
 {
-"spider":"https://raw.githubusercontent.com/river-81/tvbox/refs/heads/main/jar/spider.jar;md5;f4a2d92cc932b9afc7367f9d72d3b6e5",
+"spider":"./jar/spider.jar;md5;f4a2d92cc932b9afc7367f9d72d3b6e5",
 "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
 "logo":"https://gcore.jsdelivr.net/gh/yuanzl77/zafu@master/LR.jpg",
   "lives": [
@@ -31,9 +31,11 @@
 {"key":"天天","name":"天天｜有广｜蓝光","type":3,"api":"csp_AppTT","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"热播","name":"热播｜有广｜蓝光","type":3,"api":"csp_AppRB","playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"荐片","name":"荐片｜磁力｜蓝光","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"changeable":1,"ext":"./lib/jianpian.json"},
-{"key":"金牌","name":"金牌｜影视｜蓝光","type":3,"api":"csp_Jpys","searchable":1,"changeable":1},{"key":"人人","name":"人人｜影视｜蓝光","type":3,"api":"csp_Xdai","searchable":1,"changeable":1,"ext":"caHR0cDovLzExMC40MC40My4xNzk6MTIzNDV8RjUxRjVENTJEMjNDQkYyN3xGNTFGNUQ1MkQyM0NCRjI3fDE5MQ","jar":"./jar/qj.jar;md5;ab2b0ddad5e1f7fa6bd2b295eea6d0d5"},
-{"key":"LIBVIO","name":"LIB｜美剧｜蓝光","type":3,"api":"csp_Lib","searchable":1,"quickSearch":1,"changeable":1,"ext":"faHR0cHM6Ly9saWJ2aW8uYXJ0L3N0YXRpYy9qcy9wbGF5ZXJjb25maWcuanM=","jar":"./jar/qj.jar;md5;ab2b0ddad5e1f7fa6bd2b295eea6d0d5"},
+{"key":"金牌","name":"金牌｜影视｜蓝光","type":3,"api":"csp_Jpys","searchable":1,"changeable":1},
+{"key":"csp_xbb_555电影","name":"555影视","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"changeable":1,"ext":"./lib/555dy.json"},
+{"key":"csp_xbb_tvyb03","name":"tvb云播","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"changeable":1,"ext":"./lib/tvyb03.json"},,
 {"key":"机器人","name":"机器｜全广｜蓝光","type":3,"api":"csp_Ikanbot","searchable":1,"changeable":1}
+{"key":"csp_xbb_libvio","name":"LIBVIO","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"changeable":1,"ext":"./lib/libvio.json"}
 ],
 
 "parses":[
