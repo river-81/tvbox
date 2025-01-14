@@ -1,11 +1,3 @@
-/*
-导航: https://yuanzl77.github.io (打不开请更换dns或者挂梯)
-你好! 欢迎使用 LR 在线接口! 
-电视WebView版本老会导致一些网站看不了 只能升级WebView才能提升电视观影体验。建议使用OK版影视(支持腾讯x5，体验效果和手机差不多)!
-网站打不开，看不了 可能存在域名污染，跟换dns解析即可。
-搬运请备注来源! 谢谢! 
-*/
-
 {
 "spider":"./jar/spider.jar;md5;f4a2d92cc932b9afc7367f9d72d3b6e5",
 "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
