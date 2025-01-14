@@ -5,6 +5,7 @@
 网站打不开，看不了 可能存在域名污染，跟换dns解析即可。
 搬运请备注来源! 谢谢! 
 */
+
 {
 "spider":"./jar/spider.jar;md5;f4a2d92cc932b9afc7367f9d72d3b6e5",
 "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
