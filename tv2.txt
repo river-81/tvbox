@@ -37,7 +37,7 @@
 {"key":"csp_xbb_libvio","name":"LIBVIO","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/libvio.json","jar":"./jar/xo1.jar"},
 {"key":"厂长","name":"厂长┃影视","type":3,"api":"csp_NewCz","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.czzyvideo.com/","jar":"./jar/fan.txt"},
 {"key":"csp_LiteApple","name":"苹果┃影视","type":3,"playerType":"2","api":"csp_LiteApple","jar":"./jar/fan.txt"},
-{"key":"csp_appysv2_555电影","name":"555电影〔APP〕","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.o1bs223b6.shop/api.php/app/"},
+{"key":"csp_appysv2_555电影","name":"555电影〔APP〕","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.wuwzk.wiki/api.php/app/"},
 {"key":"急救","name":"急救｜指南｜推荐","type":3,"api":"csp_FirstAid","searchable":0,"quickSearch":0,"changeable":0,"style": {"type": "rect", "ratio":3.8}}
 
 ],
