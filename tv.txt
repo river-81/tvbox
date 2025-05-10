@@ -131,6 +131,7 @@
 			"playerType": 2,
 			"ext": "7lj763gg0939791954248jihg5529587lig9i654j59i326l5j5208hklg19161j139753h090539gig3g11h49gk3l21hl4hk637h53ghg6ikl2219j28lj76h8430kkkklj6hkl022272g8h5g69068hli583061k3l9373hk09hg9j79l31l43h06187l37j675lhkg57k511jk"
 		},
+		{"key":"csp_xbb_tvyb03","name":"TVB云播","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/tvyb03.json","jar":"./jar/xo1.jar"},
 		{
 			"key": "时常",
 			"name": "时常┃App",
