@@ -1,19 +1,20 @@
 {
 	"spider": "http://cdn.qiaoji8.com/fix250411.jar;md5;137ab413fb53d4f865a9b91453c96716",
 	"wallpaper": "https://bing.img.run/uhd.php",
-	"lives": [
-		{
-			"group": "redirect",
-			"channels": [
-				{
-					"name": "live",
-					"urls": [
-						"proxy://do=live&type=txt&ext="
-					]
-				}
-			]
-		}
-	],
+	 "lives": [
+	    {
+	      "name": "直播-主用",
+	      "type": 0,
+	      "url": "http://home.jundie.top:81/Cat/tv/live.txt",
+	      "epg": "https://epg.v1.mk/json?ch={name}&date={date}"
+	    },
+	    {
+	      "name": "直播-备用",
+	      "type": 0,
+	      "url": "https://gcore.jsdelivr.net/gh/yuanzl77/IPTV@latest/live.m3u",
+	      "epg": "https://epg.v1.mk/json?ch={name}&date={date}"
+	    }
+	  ],
 	"sites": [
 		{
 			"key": "天天",
