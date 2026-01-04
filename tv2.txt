@@ -4,7 +4,7 @@
 	//"jar": "./Jar/spidero.jar;md5;7e2f6ef2a5dce8b152dadefa6c7d4ba7",
 	//"spider": "./Jar/7080.jar;md5;dbe639527df26d6a0fd4f7c9256be475",
 	// "jar": "./tvkj.jar",
-	"spider": "./jar/spider.jar;md5;c6aaf6a9498e1e1d07126779c687bdd8",
+//	"spider": "./jar/spider.jar;md5;c6aaf6a9498e1e1d07126779c687bdd8",
 
 
 ##主頁壁紙
