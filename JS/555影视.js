@@ -1,6 +1,8 @@
 var rule={
     title: '555影视',
-    host: 'https://dy555.org/',
+   // host: 'https://dy555.org/',
+ host: 'https://www.55o9d3h2r2.shop/',
+	
     searchUrl: '/search/**----------fypage---.html',
   // host: 'https://www.55yy7.com',
     //https://5561696.vip/; https://www.555dy.me/;https://www.555dy.tv/
