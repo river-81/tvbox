@@ -1,9 +1,15 @@
 //以下内容为互联网收集，只为自用。
 {
-  "spider": "./custom_spider.jar",
+ 
+  "spider": "./custom_spider.jar;md5;f3be1f1e9f8792e122d12e67b9c0875c",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "warningText": "资源来自网络，所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买。",
   "sites": [
+   
+    {"key": "荐片","name": "🎬┃荐片┃影视","api": "csp_Jianpian","type": 3,"playerType": "2","searchable": 1,"quickSearch": 1,"changeable": 1
+    } ,
+    {"key": "荐片","name": "💮┃文采┃秒播","type": 3,"api": "csp_Jpys","playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1
+    },
     {"key": "csp_douban","name": "🌕┃豆瓣┃热播","type": 3,"api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
     {"key": "csp_KungFu404","name": "🔥┃设置Token","type": 3,"api": "csp_KungFu404","searchable": 0,"filterable": 0,"changeable": 0,"jar": "./libs/jar/Token.jar","ext": "http://127.0.0.1:9978/file/tvfan/token.txt"},
     {"key": "APP商店","name": "🎰┃蜂蜜┃商店","type": 3,"api": "csp_Market","searchable": 0,"changeable": 0,"ext": "./libs/market.json","jar": "./libs/jar/app.jar"},
@@ -15,9 +21,6 @@
     {"key": "YGP","name": "🚀┃叨观┃新片","type": 3,"api": "csp_YGP","searchable": 0,"quickSearch": 0,"changeable": 0
     },
     {"key": "alllive","name": "📽️┃一直播┃LIVE","type": 3,"api": "csp_Alllive","playerType": 2,"searchable": 0,"quickSearch": 0,"changeable": 0
-    },
-
-    {"key": "荐片","name": "🎬┃荐片┃影视","api": "csp_Jianpian","type": 3,"playerType": "2","ext": "http://api2.rinhome.com","jar": "./libs/jar/Panda.jar"
     }
 
   ],
