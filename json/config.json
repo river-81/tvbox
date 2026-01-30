@@ -57,7 +57,7 @@
       "api": "csp_Jianpian",
       "searchable": 1,
       "filterable": 1,
-      "ext": "./jianpian"
+      "ext": "./jianpian.json"
     },
     {
       "key": "玩偶",
