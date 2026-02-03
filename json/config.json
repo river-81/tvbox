@@ -36,12 +36,6 @@
   ],
   "sites": [
     {
-      "key": "Introduce",
-      "name": "Cookie设置",
-      "type": 3,
-      "api": "csp_Introduce"
-    },
-    {
       "key": "Douban",
       "name": " 豆瓣仅推荐",
       "type": 3,
@@ -49,297 +43,6 @@
       "searchable": 0,
       "filterable": 1,
       "ext": "./douban.json"
-    },
-    {
-      "key": "Jianpian",
-      "name": "荐片视频",
-      "type": 3,
-      "api": "csp_Jianpian",
-      "searchable": 1,
-      "filterable": 1,
-      "ext": "./jianpian.json"
-    },
-    {
-      "key": "玩偶",
-      "name": "玩偶哥哥",
-      "type": 3,
-      "api": "csp_Wogg",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "{\"site\": [\"https://www.wogg.net/\",\"https://wogg.xxooo.cf/\"]}"
-    },
-    {
-      "key": "SeedHub",
-      "name": "SeedHub",
-      "type": 3,
-      "api": "csp_SeedHub",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {}
-    },
-    {
-      "key": "PanTa",
-      "name": "盘他|139Pan",
-      "type": 3,
-      "api": "csp_PanTa",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {}
-    },
-    {
-      "key": "LeiJing",
-      "name": "雷鲸|189Pan",
-      "type": 3,
-      "api": "csp_LeiJing",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {}
-    },
-    {
-      "key": "BiXin",
-      "name": "彼心|139Pan",
-      "type": 3,
-      "api": "csp_BiXin",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {}
-    },
-    {
-      "key": "Qupans",
-      "name": "Qupans|Pan",
-      "type": 3,
-      "api": "csp_Qupans",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {}
-    },
-    {
-      "key": "Tg123Search",
-      "name": "Tg123Search",
-      "type": 3,
-      "api": "csp_Tg123Search",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {}
-    },
-    {
-      "key": "TgbaiduSearch",
-      "name": "TgbaiduSearch",
-      "type": 3,
-      "api": "csp_TgbaiduSearch",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {}
-    },
-    {
-      "key": "Tg189Search",
-      "name": "Tg189Search",
-      "type": 3,
-      "api": "csp_Tg189Search",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {}
-    },
-    {
-      "key": "TgQuarkSearch",
-      "name": "TgQuarkSearch",
-      "type": 3,
-      "api": "csp_TgQuarkSearch",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {}
-    },{
-      "key": "TgSearchQuark",
-      "name": "☁TgSearchQuark┃网盘",
-      "type": 3,
-      "api": "csp_TgSearchQuark",
-      "searchable": 1,
-      "filterable": 0,
-      "ext": {
-        "api_urls": [
-          "https://api.jkai.de/api/search",
-          "https://so.252035.xyz/api/search",
-          "https://psweb.banye.tech:7777/api/search",
-          "https://so.566987.xyz/api/search",
-          "http://152.69.222.142:8088/api/search"
-        ],
-        "sources": [
-          "夸克"
-        ]
-      }
-    },
-    {
-      "key": "TgSearchBaidu",
-      "name": "☁TgSearchBaidu┃网盘",
-      "type": 3,
-      "api": "csp_TgSearchBaidu",
-      "searchable": 1,
-      "filterable": 0,
-      "ext": {
-        "api_urls": [
-          "https://api.jkai.de/api/search","https://so.252035.xyz/api/search",
-          "https://psweb.banye.tech:7777/api/search",
-          "https://so.566987.xyz/api/search",
-          "http://152.69.222.142:8088/api/search"
-        ],
-        "sources": [
-          "百度"
-        ]
-      }
-    },
-    {
-      "key": "TgSearch123",
-      "name": "☁TgSearch123┃网盘",
-      "type": 3,
-      "api": "csp_TgSearch123",
-      "searchable": 1,
-      "filterable": 0,
-      "ext": {
-        "api_urls": [
-          "https://api.jkai.de/api/search","https://so.252035.xyz/api/search",
-          "https://psweb.banye.tech:7777/api/search",
-          "https://so.566987.xyz/api/search",
-          "http://152.69.222.142:8088/api/search"
-        ],
-        "sources": [
-          "123盘"
-        ]
-      }
-    },
-    {
-      "key": "TgSearch189",
-      "name": "☁TgSearch189┃网盘",
-      "type": 3,
-      "api": "csp_TgSearch189",
-      "searchable": 1,
-      "filterable": 0,
-      "ext": {
-        "api_urls": [
-          "https://api.jkai.de/api/search","https://so.252035.xyz/api/search",
-          "https://psweb.banye.tech:7777/api/search",
-          "https://so.566987.xyz/api/search",
-          "http://152.69.222.142:8088/api/search"
-        ],
-        "sources": [
-          "天翼"
-        ]
-      }
-    },{
-      "key": "TgSearch139",
-      "name": "☁TgSearch139┃网盘",
-      "type": 3,
-      "api": "csp_TgSearch139",
-      "searchable": 1,
-      "filterable": 0,
-      "ext": {
-        "api_urls": [
-          "https://api.jkai.de/api/search","https://so.252035.xyz/api/search",
-          "https://psweb.banye.tech:7777/api/search",
-          "https://so.566987.xyz/api/search",
-          "http://152.69.222.142:8088/api/search"
-        ],
-        "sources": [
-          "移动"
-        ]
-      }
-    },
-    {
-      "key": "KuaKeBa",
-      "name": "夸克吧",
-      "type": 3,
-      "api": "csp_KuaKeBa",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {}
-    },
-    {
-      "key": "DianYingYunJi",
-      "name": "电影云集",
-      "type": 3,
-      "api": "csp_DianYingYunJi",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {}
-    },
-    {
-      "key": "KuaKeS",
-      "name": "夸克网盘社",
-      "type": 3,
-      "api": "csp_KuaKeS",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {}
-    },
-    {
-      "key": "ReBoYingShi",
-      "name": "热播影视4k",
-      "type": 3,
-      "api": "csp_ReBoYingShi",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {}
-    },
-    {
-      "key": "XuanFeng",
-      "name": "旋风影视",
-      "type": 3,
-      "api": "csp_XuanFeng",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {}
-    },
-    {
-      "key": "NCat",
-      "name": "网飞猫影视",
-      "type": 3,
-      "api": "csp_NCat",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "ChangZhang",
-      "name": "厂长影视",
-      "type": 3,
-      "api": "csp_ChangZhang",
-      "searchable": "1",
-      "filterable": "0",
-      "changeable": 0,
-      "ext": "https://www.czzy.site/"
-    },
-    {
-      "key": "Zxzj",
-      "name": "在线之家",
-      "type": 3,
-      "api": "csp_Zxzj",
-      "searchable": "1",
-      "filterable": "0",
-      "changeable": 0,
-      "ext": {}
-    },
-    {
-      "key": "TvDy",
-      "name": "电影天堂影视",
-      "type": 3,
-      "api": "csp_TvDy",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "W55Movie",
-      "name": "555电影",
-      "type": 3,
-      "api": "csp_W55Movie",
-      "searchable": 1,
-      "filterable": 1,
-      "ext": "https://5524278.vip/"
-    },
-    {
-      "key": "DaGongRen",
-      "name": "打工人电影",
-      "type": 3,
-      "api": "csp_DaGongRen",
-      "searchable": 1,
-      "filterable": 1
     },
     {
       "key": "HkTv",
@@ -350,31 +53,7 @@
       "filterable": 1,
       "ext": "http://www.hktvyb.cc/"
     },
-    {
-      "key": "NGkt",
-      "name": "瓜瓜",
-      "type": 3,
-      "api": "csp_NG",
-      "searchable": 1,
-      "filterable": 0,
-      "ext": {}
-    },
-    {
-      "key": "JustLive",
-      "name": "JustLive直播",
-      "type": 3,
-      "api": "csp_JustLive",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "Xb6v",
-      "name": "新版6V视频",
-      "type": 3,
-      "api": "csp_Xb6v",
-      "searchable": 1,
-      "filterable": 1
-    },
+
     {
       "key": "ikanbot",
       "name": "爱看机器人",
@@ -384,109 +63,83 @@
       "filterable": 0,
       "ext": "{\"box\": \"TVBox\", \"danmu\": false}"
     },
+
     {
-      "key": "Libvio",
-      "name": "立播影视",
+      "key": "Jianpian",
+      "name": "荐片视频",
       "type": 3,
-      "api": "csp_Libvio",
+      "api": "csp_Jianpian",
       "searchable": 1,
-      "filterable": 0,
-      "ext": "{        \"site\": \"https://www.libvio.app\"      }"
+      "filterable": 1,
+      "ext": "./jianpian.json"
     },
+
     {
-      "key": "Ddrk",
-      "name": "低端影视",
+      "key": "MGTV",
+      "name": "芒果TV",
       "type": 3,
-      "api": "csp_Ddrk",
+      "api": "csp_MGTV",
       "searchable": 1,
-      "filterable": 0,
-      "ext": " {\"site\":\"https://ddys.info/\"}"
+      "filterable": 1
     },
+
     {
-      "key": "Ysj",
-      "name": "异世界动漫(不稳定)",
+      "key": "PTT",
+      "name": "PTT",
       "type": 3,
-      "api": "csp_Ysj",
+      "api": "csp_PTT",
       "searchable": 1,
       "filterable": 1
     },
     {
-      "key": "QxiTv",
-      "name": "七喜影视",
+      "key": "TvDy",
+      "name": "电影天堂",
       "type": 3,
-      "api": "csp_QxiTv",
+      "api": "csp_TvDy",
       "searchable": 1,
-      "changeable": 0,
-      "ext": {}
+      "filterable": 1
     },
     {
-      "key": "glod",
-      "name": "金牌 | 影视",
+      "key": "W55Movie",
+      "name": "555影院",
       "type": 3,
-      "api": "csp_Glod",
+      "api": "csp_W55Movie",
       "searchable": 1,
-      "changeable": 0,
-      "ext": {}
+      "filterable": 1
     },
     {
-      "key": "YunPanBa",
-      "name": "云盘吧",
+      "key": "Xb6v",
+      "name": "Xb6v",
       "type": 3,
-      "api": "csp_YunPanBa",
+      "api": "csp_Xb6v",
       "searchable": 1,
-      "timeout": 30
+      "filterable": 1
     },
     {
-      "key": "QiLeSo",
-      "name": "奇乐搜┃搜索",
+      "key": "XuanFeng",
+      "name": "旋  风",
       "type": 3,
-      "api": "csp_QiLeSo",
+      "api": "csp_XuanFeng",
       "searchable": 1,
-      "timeout": 30
+      "filterable": 1
     },
-    {
-      "key": "PanSearch",
-      "name": "盘搜┃搜索",
-      "type": 3,
-      "api": "csp_PanSearch",
-      "searchable": 1,
-      "timeout": 30
-    },
-    {
-      "key": "TianYiSo",
-      "name": "天翼┃搜索",
-      "type": 3,
-      "api": "csp_TianYiSo",
-      "searchable": 1,
-      "timeout": 30
-    },
-    {
-      "key": "local",
-      "name": "Local",
-      "type": 3,
-      "api": "csp_Local",
-      "searchable": 0,
-      "changeable": 0
-    },
-    {
-      "key": "market",
-      "name": "Market",
-      "type": 3,
-      "api": "csp_Market",
-      "searchable": 0,
-      "changeable": 0,
-      "ext": "./market.json"
-    },
-    {
-      "key": "push_agent",
-      "name": "Push",
-      "type": 3,
-      "api": "csp_Push",
-      "searchable": 0,
-      "changeable": 0,
-      "timeout": 60
-    }
 
+    {
+      "key": "XuanFeng",
+      "name": "旋  风",
+      "type": 3,
+      "api": "csp_XuanFeng",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "Ysj",
+      "name": "异世界动漫",
+      "type": 3,
+      "api": "csp_Ysj",
+      "searchable": 1,
+      "filterable": 1
+    }
   ],
   "parses": [
     {
