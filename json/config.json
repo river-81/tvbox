@@ -49,20 +49,11 @@
       "name": "TVB云播影视",
       "type": 3,
       "api": "csp_HkTv",
-      "searchable": 0,
+      "searchable": 1,
       "filterable": 1,
       "ext": "http://www.hktvyb.cc/"
     },
 
-    {
-      "key": "ikanbot",
-      "name": "爱看机器人",
-      "type": 3,
-      "api": "csp_Ikanbot",
-      "searchable": 1,
-      "filterable": 0,
-      "ext": "{\"box\": \"TVBox\", \"danmu\": false}"
-    },
 
     {
       "key": "Jianpian",
@@ -70,10 +61,19 @@
       "type": 3,
       "api": "csp_Jianpian",
       "searchable": 1,
-      "filterable": 1,
+      "filterable": 0,
       "ext": "./jianpian.json"
     },
 
+    {
+      "key": "ikanbot",
+      "name": "爱看机器人",
+      "type": 3,
+      "api": "csp_Ikanbot",
+      "searchable": 0,
+      "filterable": 1,
+      "ext": "{\"box\": \"TVBox\", \"danmu\": false}"
+    },
     {
       "key": "MGTV",
       "name": "芒果TV",
@@ -84,59 +84,10 @@
     },
 
     {
-      "key": "PTT",
-      "name": "PTT",
-      "type": 3,
-      "api": "csp_PTT",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "TvDy",
-      "name": "电影天堂",
-      "type": 3,
-      "api": "csp_TvDy",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "W55Movie",
-      "name": "555影院",
-      "type": 3,
-      "api": "csp_W55Movie",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
       "key": "Xb6v",
       "name": "Xb6v",
       "type": 3,
       "api": "csp_Xb6v",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "XuanFeng",
-      "name": "旋  风",
-      "type": 3,
-      "api": "csp_XuanFeng",
-      "searchable": 1,
-      "filterable": 1
-    },
-
-    {
-      "key": "XuanFeng",
-      "name": "旋  风",
-      "type": 3,
-      "api": "csp_XuanFeng",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "Ysj",
-      "name": "异世界动漫",
-      "type": 3,
-      "api": "csp_Ysj",
       "searchable": 1,
       "filterable": 1
     }
