@@ -44,15 +44,6 @@
       "filterable": 1,
       "ext": "./douban.json"
     },
-    {
-      "key": "HkTv",
-      "name": "TVB云播影视",
-      "type": 3,
-      "api": "csp_HkTv",
-      "searchable": 1,
-      "filterable": 1,
-      "ext": "http://www.hktvyb.cc/"
-    },
 
 
     {
@@ -61,8 +52,17 @@
       "type": 3,
       "api": "csp_Jianpian",
       "searchable": 1,
-      "filterable": 0,
+      "filterable": 1,
       "ext": "./jianpian.json"
+    },
+    {
+      "key": "HkTv",
+      "name": "TVB云播",
+      "type": 3,
+      "api": "csp_HkTv",
+      "searchable": 1,
+      "filterable": 1,
+      "ext": "http://www.hktvyb.cc/"
     },
 
     {
@@ -70,19 +70,26 @@
       "name": "爱看机器人",
       "type": 3,
       "api": "csp_Ikanbot",
-      "searchable": 0,
+      "searchable": 1,
       "filterable": 1,
       "ext": "{\"box\": \"TVBox\", \"danmu\": false}"
+    },
+    {
+      "key": "TvDy",
+      "name": "电影天堂",
+      "type": 3,
+      "api": "csp_TvDy",
+      "searchable": 1,
+      "filterable": 1
     },
     {
       "key": "MGTV",
       "name": "芒果TV",
       "type": 3,
       "api": "csp_MGTV",
-      "searchable": 1,
+      "searchable": 0,
       "filterable": 1
     },
-
     {
       "key": "Xb6v",
       "name": "Xb6v",
